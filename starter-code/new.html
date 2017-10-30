@@ -76,7 +76,9 @@
         </label>
         <button type="submit">Submit and return to the home page</button>
         </form>
-
+        <label>
+          <input type="checkbox" id="article-published" />Published
+        </label>
       </section>
 
       <section id="articles" class="tab-content">
@@ -85,6 +87,10 @@
 
       <section id="article-export">
         <!-- TODO: Refer to the preview image to see what we will be building here: we need a container of some kind to hold a JSON export of our article. Ideally this container would show only a incipit (short preview) of the JSON and also be clickable to allow easy selection of the text it holds. What kind of element could we use for this? -->
+        <label id="export-field" class="pull-right">
+          <input type="text" readonly id="article-json" />
+          Copy and Paste this JSON into your array of articles!
+        </label>
       </section>
 
     </main>
