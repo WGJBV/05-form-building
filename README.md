@@ -69,24 +69,19 @@ _Your README.md must include:_
 ```md
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: Garrett Johnson
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This application is meant to add a new user-generated article to our Kilovolt Blog page. We're building it to get a better understanding of how to process user input using jQuery.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Ensure the main .tab-content area is revealed.
+2. Have the new articles be copy and pasted into our source data file.
+3. Add an event handler to update and preview.
+4. After refactoring the HTML into using handlebars, put this new article into the DOM
+5. Look up hljs in order to activate all the highlighted code.
+6. Export the new article to JSON
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
-
-## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
-
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
-```
+I used jQuery, hljs, handlebars, CSS, HTML and JS.
